@@ -1,0 +1,42 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
+#background {
+    height: 725px;
+    background-color: lightgray;
+  }
+body {
+    background-color: lightslategray; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+    background-color: #d9c2a3;
+}
+nav a:hover {
+    background-color: black;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}    
+.icon {
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    background-color: #d9c2a3;
+}    
+footer p {
+    font-size: 1.5em;
+}    
+footer p {
+    font-size: 1.5em;
+}    
+

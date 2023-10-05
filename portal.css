@@ -42,13 +42,14 @@ img {
     display: block;
     margin: 0 auto;
 }
+
 p {
     width: 40%;
     margin: 10px auto;
     padding: 10px;
 }
 .background {
-    background-color: #ccc;
+    background-color: gray;
 }
 footer {
     background-color: lightblue;
