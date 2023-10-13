@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
-    max-width: 960px;
     margin: 0 auto;
-    padding: 4em;
     font-size: 18px;
     text-align: center;
     font-family: Roboto, Verdana, sans-serif;
@@ -29,6 +27,9 @@ a:hover {
     margin-bottom: 10px;
 
 }
+.hero-img {
+    width: 100%;
+}
 #background {
     height: 725px;
     background-color: lightgray;
@@ -39,6 +40,7 @@ body {
 header {
     background-color:rgba(20,30,13, .7);
     background-color: #d9c2a3;
+    width: 100%;
 }
 nav a:hover {
     background-color: black;
