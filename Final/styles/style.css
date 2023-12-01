@@ -32,7 +32,7 @@ footer a{
 
 header {
     /*  */
-    background-color: #ea9d93;
+    background-color: #556c7f;
     width: 100%;
     display: grid;
     grid-template-columns: 80px auto;
@@ -139,7 +139,7 @@ footer {
 .card-img{
     height: 200px;
     border-radius: 10px;
-    border: 10px solid #d9c2a3;
+    border: 10px solid #443f38;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -170,7 +170,7 @@ footer {
 }
 
 .msg {
-    background-color: rgb(250, 233, 186);
+    background-color: rgb(141, 147, 167);
     padding: 100px;
     grid-column: 7/11;
     grid-row: 7/8;
