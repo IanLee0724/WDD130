@@ -24,7 +24,25 @@
     </header>
     <div id="hero">
         <div id="hero-box">
-            <img class="hero-img" src="images/Hero22.png" alt="hero">
+            
+            <div class="mySlides fade">
+                <img src="images/homepage2.png" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="images/slide2.png" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="images/slide3.png" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                  <img src="images/slide1.png" style="width:100%">
+                </div>
+
+        
+                
         </div>
         <section id="hero-msg">
             <h1 class="home-title">Browse your favorite guitar!!</h1>
@@ -61,7 +79,7 @@
         <section class="msg">
             <h2>Don't miss the chance to explore the guitar</h2>
             <p> </p>
-            <a class='join' href="rivers.html">Join Us</a>
+            <a class='join' href="contactus.html">Join Us</a>
         </section>
 
     </main>
@@ -84,4 +102,20 @@
 </div>  
      
 </body>
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides ");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      slides[slideIndex-1].style.display = "block";  
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
 </html>
