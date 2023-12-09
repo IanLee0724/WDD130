@@ -151,3 +151,25 @@ footer {
     grid-row: 5/11;
     z-index: -1;
 }
+
+.page2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+.page2 section {
+    padding-bottom: 100px;
+}
+
+.page2 img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    margins: 10px;
+}
+
+.text p {
+    margin: 15%; 
+    line-height: 2em;
+    font-size: 1.2em;
+ }
